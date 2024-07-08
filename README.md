@@ -4,6 +4,8 @@ The transition to renewable energy sources and decentralized energy systems has 
 Efficient management and optimization of these communities require robust tools to monitor and control energy flows. 
 This repository presents a dashboard designed specifically for energy communities, enabling real-time data visualization, performance analysis, and decision support.
 
+https://aphd.github.io/energy-dashboard/
+
 ## References
 
 ### React + Vite
