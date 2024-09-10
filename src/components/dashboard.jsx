@@ -5,7 +5,7 @@ import goodToken from '../assets/good-token.svg';
 import solarPower from '../assets/solar-power.png';
 import charger from '../assets/charger.svg';
 import saving from '../assets/saving.svg';
-import thumbsUpDown from '../assets/thumbs-up-down.svg';
+import Uplift from './uplift-panel';
 
 function Dashboard() {
     return (
@@ -46,12 +46,7 @@ function Dashboard() {
                 <p>Total Tokens: 150</p>
                 <p>Today's Tokens: 15</p>
             </div>
-            <div className="widget large">
-                <img src={thumbsUpDown} />
-                <h2>Increase Good Behavior</h2>
-                <p>Bad Behavior: Using the washing machine during the night.</p>
-                <p>Good Behavior: Use the washing machine during daylight hours to take advantage of solar power.</p>
-            </div>
+            <Uplift></Uplift>
         </div>
     );
 }
